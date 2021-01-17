@@ -1,18 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
+import { Provider } from 'react-redux'
 
 import './scss/app.scss'
 
 import App from './App'
+import store from './redux/store'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
+  <BrowserRouter>
+    <Provider store={store}>
       <App />
-    </BrowserRouter>
-  </React.StrictMode>,
+    </Provider>
+  </BrowserRouter>,
   document.getElementById('root')
 )
 
-// #5: React Pizza — разработка интернет-магазина (for junior) | 1:49:20
+// #7: React Pizza — разработка интернет-магазина (for junior) | 48:45
