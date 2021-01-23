@@ -17,4 +17,4 @@ ReactDOM.render(
   document.getElementById('root')
 )
 
-// #7: React Pizza — разработка интернет-магазина (for junior) | 48:45
+// #9: React Pizza — разработка интернет-магазина (for junior) | 2:01:55
